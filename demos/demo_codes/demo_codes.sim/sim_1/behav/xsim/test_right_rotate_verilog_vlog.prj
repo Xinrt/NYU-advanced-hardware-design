@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../demo_codes.srcs/sources_1/new/right_rotate_verilog.v" \
+"../../../../demo_codes.srcs/sim_1/new/test_right_rotate_verilog.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

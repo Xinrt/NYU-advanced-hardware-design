@@ -1,0 +1,15 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/tools-packages/Xilinux/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_right_rotate_verilog_behav xil_defaultlib.test_right_rotate_verilog xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.right_rotate_verilog
+Compiling module xil_defaultlib.test_right_rotate_verilog
+WARNING: [XSIM 43-3373] "E:/NYU/course/22Fall/AHD/HW/code/demo_codes/demo_codes.srcs/sim_1/new/test_right_rotate_verilog.v" Line 60. System function $fscanf is used as system task. This system function should have a LHS e.g. x=$fscanf().
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_right_rotate_verilog_behav

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/NYU/course/22Fall/AHD/HW/code/demo_codes/demo_codes.srcs/sources_1/new/right_rotate_verilog.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module right_rotate_verilog
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/NYU/course/22Fall/AHD/HW/code/demo_codes/demo_codes.srcs/sim_1/new/test_right_rotate_verilog.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_right_rotate_verilog
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/NYU/course/22Fall/AHD/HW/code/demo_codes/demo_codes.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

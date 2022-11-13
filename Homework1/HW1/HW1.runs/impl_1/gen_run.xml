@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1663265287">
+  <File Type="PA-TCL" Name="left_rotate.tcl"/>
+  <File Type="REPORTS-TCL" Name="left_rotate_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="left_rotate.msk"/>
+  <File Type="RDI-RDI" Name="left_rotate.vdi"/>
+  <File Type="PA-DCP" Name="left_rotate.dcp"/>
+  <File Type="BG-BIT" Name="left_rotate.bit"/>
+  <File Type="BG-DRC" Name="left_rotate.drc"/>
+  <File Type="BG-BGN" Name="left_rotate.bgn"/>
+  <File Type="BG-BIN" Name="left_rotate.bin"/>
+  <File Type="BITSTR-RBT" Name="left_rotate.rbt"/>
+  <File Type="BITSTR-NKY" Name="left_rotate.nky"/>
+  <File Type="BITSTR-BMM" Name="left_rotate_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="left_rotate.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="left_rotate.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="left_rotate.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="left_rotate.hwdef"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="left_rotate_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="left_rotate_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="left_rotate_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="left_rotate_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="left_rotate_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="left_rotate_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="left_rotate_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="left_rotate_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="left_rotate_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="left_rotate_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="left_rotate_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="left_rotate_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="left_rotate.pdi"/>
+  <File Type="RCFI_FILE" Name="left_rotate.rcfi"/>
+  <File Type="CFI_FILE" Name="left_rotate.cfi"/>
+  <File Type="RNPI_FILE" Name="left_rotate.rnpi"/>
+  <File Type="NPI_FILE" Name="left_rotate.npi"/>
+  <File Type="RBD_FILE" Name="left_rotate.rbd"/>
+  <File Type="ROUTE-RQS" Name="left_rotate_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="left_rotate_postroute_physopted.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/left_rotate.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/left_rotate.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/right_rotate.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/right_rotate.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="left_rotate"/>
+      <Option Name="TopLib" Val="xil_defaultlib"/>
+      <Option Name="TopRTLFile" Val="$PSRCDIR/sources_1/new/left_rotate.v"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

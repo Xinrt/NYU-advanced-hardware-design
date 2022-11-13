@@ -1,0 +1,10 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+E:/NYU/course/22Fall/AHD/HW/HW4/HW4/HW4.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+E:/NYU/course/22Fall/AHD/HW/HW4/HW4/HW4.srcs/sim_1/new/RC5_decoder_test.v,1668186041,verilog,,,,RC5_decoder_test,,,,,,,,
+E:/NYU/course/22Fall/AHD/HW/HW4/HW4/HW4.srcs/sim_1/new/RC5_encoder_test.v,1668185382,verilog,,,,RC5_encoder_test,,,,,,,,
+E:/NYU/course/22Fall/AHD/HW/HW4/HW4/HW4.srcs/sources_1/new/RC5_PKG.vhd,1668174097,vhdl,E:/NYU/course/22Fall/AHD/HW/HW4/HW4/HW4.srcs/sources_1/new/RC5_encoder_VHDL.vhd,,,rc5_pkg,,,,,,,,
+E:/NYU/course/22Fall/AHD/HW/HW4/HW4/HW4.srcs/sources_1/new/RC5_decoder_Verilog.v,1668184517,verilog,,E:/NYU/course/22Fall/AHD/HW/HW4/HW4/HW4.srcs/sim_1/new/RC5_decoder_test.v,,RC5_decoder_Verilog,,,,,,,,
+E:/NYU/course/22Fall/AHD/HW/HW4/HW4/HW4.srcs/sources_1/new/RC5_encoder_VHDL.vhd,1668174975,vhdl,,,,rc5_encoder_vhdl,,,,,,,,

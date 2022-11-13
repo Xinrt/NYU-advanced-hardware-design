@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Sep 15 14:06:27 2022
+# Process ID: 21780
+# Current directory: E:/NYU/course/22Fall/AHD/HW/code/HW1/HW1.runs/synth_1
+# Command line: vivado.exe -log left_rotate.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source left_rotate.tcl
+# Log file: E:/NYU/course/22Fall/AHD/HW/code/HW1/HW1.runs/synth_1/left_rotate.vds
+# Journal file: E:/NYU/course/22Fall/AHD/HW/code/HW1/HW1.runs/synth_1\vivado.jou
+# Running On: DESKTOP-CEVA7TK, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 8363 MB
+#-----------------------------------------------------------
+source left_rotate.tcl -notrace

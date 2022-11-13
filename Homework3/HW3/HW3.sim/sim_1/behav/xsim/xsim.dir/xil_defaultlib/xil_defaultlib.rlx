@@ -1,0 +1,14 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+E:/NYU/course/22Fall/AHD/HW/code/HW3/HW3.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+E:/NYU/course/22Fall/AHD/HW/code/HW3/HW3.srcs/sim_1/new/test_CounterA.vhd,1665723687,vhdl,,,,test_countera,,,,,,,,
+E:/NYU/course/22Fall/AHD/HW/code/HW3/HW3.srcs/sim_1/new/test_CounterB.v,1665724907,verilog,,,,test_CounterB,,,,,,,,
+E:/NYU/course/22Fall/AHD/HW/code/HW3/HW3.srcs/sim_1/new/test_left_rotate_vhdl.vhd,1665682504,vhdl,,,,test_left_rotate_vhdl,,,,,,,,
+E:/NYU/course/22Fall/AHD/HW/code/HW3/HW3.srcs/sim_1/new/test_right_rotate_verilog.v,1665720473,verilog,,,,test_right_rotate_verilog,,,,,,,,
+E:/NYU/course/22Fall/AHD/HW/code/HW3/HW3.srcs/sources_1/new/CounterA.v,1665678741,verilog,E:/NYU/course/22Fall/AHD/HW/code/HW3/HW3.srcs/sim_1/new/test_CounterA.vhd,E:/NYU/course/22Fall/AHD/HW/code/HW3/HW3.srcs/sources_1/new/CounterA_board.v,,\CounterA\,,,,,,,,
+E:/NYU/course/22Fall/AHD/HW/code/HW3/HW3.srcs/sources_1/new/CounterA_board.v,1665624128,verilog,,,,CounterA_board,,,,,,,,
+E:/NYU/course/22Fall/AHD/HW/code/HW3/HW3.srcs/sources_1/new/CounterB.vhd,1665669406,vhdl,,,,counterb,,,,,,,,
+E:/NYU/course/22Fall/AHD/HW/code/HW3/HW3.srcs/sources_1/new/left_rotate_vhdl.vhd,1665629814,vhdl,E:/NYU/course/22Fall/AHD/HW/code/HW3/HW3.srcs/sim_1/new/test_left_rotate_vhdl.vhd,,,left_rotate_vhdl,,,,,,,,
+E:/NYU/course/22Fall/AHD/HW/code/HW3/HW3.srcs/sources_1/new/right_rotate_verilog.v,1665681880,verilog,,E:/NYU/course/22Fall/AHD/HW/code/HW3/HW3.srcs/sim_1/new/test_right_rotate_verilog.v,,right_rotate_verilog,,,,,,,,

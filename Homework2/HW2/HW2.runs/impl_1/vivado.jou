@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Thu Sep 29 22:47:54 2022
+# Process ID: 20356
+# Current directory: E:/NYU/course/22Fall/AHD/HW/code/HW2/HW2.runs/impl_1
+# Command line: vivado.exe -log board.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source board.tcl -notrace
+# Log file: E:/NYU/course/22Fall/AHD/HW/code/HW2/HW2.runs/impl_1/board.vdi
+# Journal file: E:/NYU/course/22Fall/AHD/HW/code/HW2/HW2.runs/impl_1\vivado.jou
+# Running On: DESKTOP-CEVA7TK, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 8363 MB
+#-----------------------------------------------------------
+source board.tcl -notrace
